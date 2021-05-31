@@ -15,13 +15,13 @@ public class CheckSet
 {
 	Set<String> set = new HashSet<String>();
 	
-	public CheckSet()
+	public CheckSet(String s1, String s2, String s3, String s4, String s5)
 	{
-		set.add("Welcome");
-        set.add("To");
-        set.add("UPES");
-        set.add("CSF");
-        set.add("Branch");
+		set.add(s1);
+        set.add(s2);
+        set.add(s3);
+        set.add(s4);
+        set.add(s5);
 	}
 	
 	void check(String s)

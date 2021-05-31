@@ -13,15 +13,15 @@ public class KSum
 {
 	java.util.List<Integer> aList = new ArrayList<Integer>();
 	
-	public KSum()
+	public KSum(int s1, int s2, int s3, int s4, int s5)
 	{
 		//Initialize array list
-        aList.add(8);
-	    aList.add(7);
-	    aList.add(2);
-	    aList.add(5);
-	    aList.add(3);
-	    aList.add(1);
+        aList.add(s1);
+	    aList.add(s2);
+	    aList.add(s3);
+	    aList.add(s4);
+	    aList.add(s4);
+	    aList.add(s5);
 	}
 	
 	    // Naive method to find a pair in an array with a given sum

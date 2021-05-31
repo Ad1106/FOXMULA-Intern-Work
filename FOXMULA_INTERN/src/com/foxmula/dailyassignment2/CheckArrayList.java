@@ -15,17 +15,17 @@ import java.util.ArrayList;
 public class CheckArrayList 
 {
 	java.util.List<String> aList = new ArrayList<String>();
-	public CheckArrayList()
-	   {
-		 
-	      aList.add("A");
-	      aList.add("B");
-	      aList.add("C");
-	      aList.add("D");
-	      aList.add("E");
-	   }
 	   
-	   void check(String s)
+	   public CheckArrayList(String s1, String s2, String s3, String s4, String s5) 
+	   {
+		   	  aList.add(s1);
+		      aList.add(s2);
+		      aList.add(s3);
+		      aList.add(s4);
+		      aList.add(s5);
+	}
+
+	void check(String s)
 	   {
 		   System.out.println("The element " + s + " in ArrayList? " + aList.contains(s));
 	   }

@@ -16,12 +16,12 @@ public class TraverseTreeSet
 {
 	TreeSet<Integer> ts = new TreeSet<Integer>();
 	
-    public TraverseTreeSet ()
+    public TraverseTreeSet (int n1, int n2, int n3, int n4)
     {
-	    ts.add(101);
-	    ts.add(611);
-	    ts.add(870);
-	    ts.add(309);  
+	    ts.add(n1);
+	    ts.add(n2);
+	    ts.add(n3);
+	    ts.add(n4);  
     }
     
     void traverse()

@@ -16,12 +16,13 @@ public class TraverseHashSet
  
 		HashSet<String> set=new HashSet<String>();  
 		
-	    public TraverseHashSet ()
+	    public TraverseHashSet (String s1, String s2, String s3, String s4, String s5)
 	    {
-	        set.add("Adarsh");    
-	        set.add("Keshav");    
-	        set.add("Aman");    
-	        set.add("Piyush");    
+	    	set.add(s1);
+	        set.add(s2);
+	        set.add(s3);
+	        set.add(s4);
+	        set.add(s5);    
 	    }
 	    
 	    void traverse()

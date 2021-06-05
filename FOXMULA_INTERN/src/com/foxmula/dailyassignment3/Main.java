@@ -20,7 +20,16 @@ public class Main
 		System.out.println("Enter a number");
 		int n=s.nextInt();	
 		CustomException O1 = new CustomException();
-		O1.process(n);
+		try
+		{
+			O1.process(n);
+		}
+		
+		catch(InvalidNumberException e)
+		{
+			System.out.println(e.getMessage());
+		}
+		
 			
 		
 		// Answer 3
